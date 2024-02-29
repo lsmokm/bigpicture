@@ -1,7 +1,7 @@
 name: Build check on PR
 
 on:
-  push_request:
+  pull_request:
     branches: [ main ]
     paths:
       - 'TailwindTraders.Website/**'
